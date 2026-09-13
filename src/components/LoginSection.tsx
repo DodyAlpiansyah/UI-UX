@@ -39,7 +39,7 @@ export const LoginSection: React.FC<LoginSectionProps> = ({
   const [sanggahSukses, setSanggahSukses] = useState(false);
 
   // Operator State
-  const [operatorEmail, setOperatorEmail] = useState('verifikator@smpdarusalah.sch.id');
+  const [operatorEmail, setOperatorEmail] = useState('verifikator@smpdarussalam.sch.id');
   const [operatorPassword, setOperatorPassword] = useState('admin123');
   const [isOperatorLoggedIn, setIsOperatorLoggedIn] = useState(false);
   const [selectedVerifPeserta, setSelectedVerifPeserta] = useState<PesertaSPMB>(pesertaList[0]);
@@ -455,7 +455,7 @@ export const LoginSection: React.FC<LoginSectionProps> = ({
 
                 <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-[11px] text-slate-500">
                   <span>Demo Kredensial Pengujian:</span>
-                  <p className="font-mono text-slate-700 mt-0.5">Email: <strong>verifikator@smpdarusalah.sch.id</strong></p>
+                  <p className="font-mono text-slate-700 mt-0.5">Email: <strong>verifikator@smpdarussalam.sch.id</strong></p>
                   <p className="font-mono text-slate-700">Password: <strong>admin123</strong></p>
                 </div>
               </div>

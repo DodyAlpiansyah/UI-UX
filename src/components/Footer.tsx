@@ -113,7 +113,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
                   <span>Senin - Sabtu: 08.00 - 14.00 WIB</span>
                 </div>
                 <p className="text-slate-400 text-[10px]">
-                  Lokasi: Ruang Pelayanan Terpadu Satu Pintu (PTSP) SPMB SMP Darusalah
+                  Lokasi: Ruang Pelayanan Terpadu Satu Pintu (PTSP) SPMB SMP Darussalam
                 </p>
               </div>
               <ul className="space-y-1 text-[11px] text-slate-400">

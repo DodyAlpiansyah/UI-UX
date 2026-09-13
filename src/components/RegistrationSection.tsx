@@ -102,16 +102,16 @@ export const RegistrationSection: React.FC<RegistrationSectionProps> = ({
     setJenisKelamin('L');
     setTempatLahir('Malang');
     setTanggalLahir('2013-09-18');
-    setAsalSekolah('SD Negeri 3 Darusalah');
+    setAsalSekolah('SD Negeri 3 Darussalam');
     setAgama('Islam');
     setNamaAyah('Bambang Pratama, S.T.');
     setNamaIbu('Dewi Anggraeni');
     setPekerjaanOrtu('Wiraswasta');
     setNoWhatsapp('081234567899');
     setEmail('kurnia.pratama@gmail.com');
-    setAlamatKK('Jl. Darusalah Timur No. 28');
+    setAlamatKK('Jl. Darussalam Timur No. 28');
     setRtRw('002/004');
-    setKelurahan('Darusalah');
+    setKelurahan('Darussalam');
     setKecamatan('Kedungkandang');
     setTanggalTerbitKK('2024-05-10'); // > 1 year valid
     setJarakRumah(720);
@@ -437,7 +437,7 @@ export const RegistrationSection: React.FC<RegistrationSectionProps> = ({
                 {jalur === 'domisili' && (
                   <div className="space-y-1.5">
                     <label className="block font-semibold text-slate-700">
-                      Perkiraan Jarak Rumah ke SMP Darusalah (dalam meter):
+                      Perkiraan Jarak Rumah ke SMP Darussalam (dalam meter):
                     </label>
                     <div className="flex items-center gap-3">
                       <input 
@@ -687,7 +687,7 @@ export const RegistrationSection: React.FC<RegistrationSectionProps> = ({
                   type="text"
                   value={asalSekolah}
                   onChange={(e) => setAsalSekolah(e.target.value)}
-                  placeholder="Contoh: SDN 1 Darusalah / SDIT Al-Ihsan"
+                  placeholder="Contoh: SDN 1 Darussalam / SDIT Al-Ihsan"
                   className="w-full px-3 py-2 rounded-xl border border-slate-300 focus:ring-2 focus:ring-sky-500 focus:outline-none"
                   required
                 />
@@ -1326,7 +1326,7 @@ export const RegistrationSection: React.FC<RegistrationSectionProps> = ({
                   </div>
 
                   <div className="text-[10px] text-slate-500 text-center">
-                    Posko Pelayanan: Ruang PTSP SPMB SMP Darusalah
+                    Posko Pelayanan: Ruang PTSP SPMB SMP Darussalam
                   </div>
                 </div>
 

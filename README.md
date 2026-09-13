@@ -1,4 +1,4 @@
-# Portal SPMB Online SMP Darusalah
+# Portal SPMB Online SMP Darussalam
 > **Sistem Penerimaan Murid Baru (SPMB) Berbasis Web untuk Transformasi Digital dari Sistem Konvensional (Offline) ke Sistem Online**  
 > *Proyek Inovasi Digitalisasi Layanan Pendidikan & Pengabdian Masyarakat (PKM)*
 
@@ -6,7 +6,7 @@
 
 ## 📌 1. Latar Belakang & Tujuan Proyek
 
-Aplikasi **Portal SPMB Online SMP Darusalah** dikembangkan sebagai solusi atas permasalahan antrean panjang, penumpukan berkas fisik rawan hilang/rusak, dan keterbatasan jam operasional pada proses pendaftaran peserta didik baru sistem konvensional (tatap muka/offline).
+Aplikasi **Portal SPMB Online SMP Darussalam** dikembangkan sebagai solusi atas permasalahan antrean panjang, penumpukan berkas fisik rawan hilang/rusak, dan keterbatasan jam operasional pada proses pendaftaran peserta didik baru sistem konvensional (tatap muka/offline).
 
 Aplikasi ini mengedepankan **prinsip UI/UX yang human-centered**, dirancang khusus agar mudah digunakan oleh orang tua murid yang belum terbiasa dengan aplikasi digital rumit, sekaligus mematuhi regulasi pendidikan terbaru:
 - **Permendikdasmen No. 3 Tahun 2025**: Pembagian 4 jalur resmi (Domisili 50%, Afirmasi 20%, Prestasi 25%, dan Mutasi 5%).
@@ -95,7 +95,7 @@ Untuk menjalankan kode sumber aplikasi ini di lingkungan lokal Anda (VS Code, Cu
 
 1. **Buka Terminal** di direktori proyek yang telah diekstrak:
    ```bash
-   cd spmb-smp-darusalah
+   cd spmb-smp-darussalam
    ```
 
 2. **Pasang Dependensi (Install Dependencies)**:
@@ -142,7 +142,7 @@ Anda dapat mengekspor dan menyimpan aplikasi ini ke akun GitHub dengan dua cara:
 ### Cara 1: Menggunakan Fitur Otomatis Google AI Studio (Paling Mudah)
 1. Pada antarmuka AI Studio di pojok kanan atas, klik ikon **Settings** (ikon gerigi ⚙️).
 2. Pilih opsi **"Export to GitHub"**.
-3. Otorisasikan akun GitHub Anda jika diminta, dan tentukan nama repositori (misalnya `spmb-smp-darusalah-pkm`).
+3. Otorisasikan akun GitHub Anda jika diminta, dan tentukan nama repositori (misalnya `spmb-smp-darussalam-pkm`).
 4. Seluruh kode sumber beserta file `README.md` ini akan otomatis ter-push ke akun GitHub Anda.
 
 ### Cara 2: Push Manual via Git Terminal (Lokal)
@@ -158,7 +158,7 @@ Jika Anda telah mengunduh ZIP proyek dan membukanya di komputer lokal:
    ```
 3. Buat commit pertama:
    ```bash
-   git commit -m "feat: Implementasi Sistem SPMB Online SMP Darusalah untuk PKM"
+   git commit -m "feat: Implementasi Sistem SPMB Online SMP Darussalam untuk PKM"
    ```
 4. Hubungkan ke repositori GitHub Anda:
    ```bash
@@ -212,5 +212,5 @@ Untuk memudahkan pengujian dan penilaian:
    *(Tersedia tombol satu-klik isi otomatis di form login)*
 
 2. **Login Panitia Verifikator**:
-   - Email: `verifikator@smpdarusalah.sch.id`
+   - Email: `verifikator@smpdarussalam.sch.id`
    - Password: `admin123`

@@ -240,7 +240,7 @@ export const SchoolProfileSection: React.FC<SchoolProfileSectionProps> = ({ setA
               className="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs flex items-center gap-1.5 transition"
             >
               <UserPlus className="w-3.5 h-3.5" />
-              <span>Daftar ke SMP Darusalah</span>
+              <span>Daftar ke SMP Darussalam</span>
             </button>
           </div>
 
