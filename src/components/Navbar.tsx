@@ -10,10 +10,7 @@ import {
   LogIn, 
   Menu, 
   X, 
-  PhoneCall, 
-  Search,
-  ShieldCheck,
-  MapPin
+  Search
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -41,35 +38,6 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenS
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      {/* Top Banner: Regulasi & Helpdesk */}
-      <div className="bg-slate-900 text-sky-100 text-xs py-1.5 px-4 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
-          <div className="flex items-center gap-2 overflow-hidden">
-            <span className="inline-flex items-center gap-1 bg-amber-400 text-slate-950 font-bold px-2 py-0.5 rounded text-[10px]">
-              <ShieldCheck className="w-3 h-3 text-slate-950" /> RESMI
-            </span>
-            <span className="text-[11px] truncate text-slate-300">
-              Sesuai <strong>Permendikdasmen No. 3/2025</strong> • Transisi Offline ke Online • Bebas Biaya (100% Gratis)
-            </span>
-          </div>
-
-          <div className="flex items-center gap-3 text-[11px] text-slate-300">
-            <span className="hidden md:inline-flex items-center gap-1">
-              <MapPin className="w-3 h-3 text-amber-400" /> Posko Bantuan: {INFO_SEKOLAH.telepon}
-            </span>
-            <a 
-              href={`https://wa.me/6281234567890?text=Halo%20Panitia%20SPMB%20SMP%20Darusalah,%20saya%20ingin%20bertanya%20tentang%20pendaftaran%20online`} 
-              target="_blank" 
-              rel="noreferrer"
-              className="inline-flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-semibold transition-colors"
-            >
-              <PhoneCall className="w-3 h-3" />
-              <span>WA Helpdesk: {INFO_SEKOLAH.whatsappHelpdesk}</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-18 items-center">
