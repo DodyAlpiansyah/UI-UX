@@ -1,0 +1,6 @@
+{
+  "name": "Portal SPMB Online SMP Darusalah",
+  "description": "Sistem Penerimaan Murid Baru Online SMP Darusalah berbasis web untuk transisi pendaftaran dari offline ke online dengan UI/UX intuitif bagi orang tua dan calon murid.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
