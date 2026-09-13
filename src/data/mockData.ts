@@ -1,15 +1,15 @@
 import { KuotaJalur, PengumumanItem, PesertaSPMB, FasilitasSekolah, Ekstrakurikuler } from '../types';
 
 export const INFO_SEKOLAH = {
-  nama: 'SMP DARUSALAH',
+  nama: 'SMP DARUSSALAM',
   npsn: '20512345',
   akreditasi: 'A (Unggul) - BAN-S/M',
-  alamat: 'Jl. Darusalah No. 45, Kecamatan Kedungkandang, Kota Malang, Jawa Timur',
+  alamat: 'Jl. Darussalam No. 45, Kecamatan Kedungkandang, Kota Malang, Jawa Timur',
   kodePos: '65136',
   telepon: '(0341) 555-789',
   whatsappHelpdesk: '0812-3456-7890',
-  email: 'spmb@smpdarusalah.sch.id',
-  website: 'https://smpdarusalah.sch.id',
+  email: 'spmb@smpdarussalam.sch.id',
+  website: 'https://smpdarussalam.sch.id',
   kepalaSekolah: 'Drs. H. Ahmad Fauzi, M.Pd.',
   tahunAjaran: '2026/2027',
   totalDayaTampung: 320,

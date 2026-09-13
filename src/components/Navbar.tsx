@@ -23,8 +23,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenS
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems: { id: ActiveTab; label: string; icon: React.ReactNode; badge?: string }[] = [
-    { id: 'beranda', label: 'Beranda', icon: <Home className="w-4 h-4" /> },
-    { id: 'profil', label: 'Profil Sekolah', icon: <School className="w-4 h-4" /> },
+    { id: 'profil', label: 'Beranda', icon: <Home className="w-4 h-4" /> },
+    { id: 'beranda', label: 'PMB', icon: <GraduationCap className="w-4 h-4" />, badge: 'TP ' + INFO_SEKOLAH.tahunAjaran },
     { id: 'registrasi', label: 'Registrasi', icon: <UserPlus className="w-4 h-4" />, badge: 'Online' },
     { id: 'pengumuman', label: 'Pengumuman', icon: <Megaphone className="w-4 h-4" /> },
     { id: 'login', label: 'Login', icon: <LogIn className="w-4 h-4" /> },
@@ -43,26 +43,16 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenS
         <div className="flex justify-between h-18 items-center">
           {/* Logo & School Name */}
           <button 
-            onClick={() => handleNavClick('beranda')}
+            onClick={() => handleNavClick('profil')}
             className="flex items-center gap-3 text-left group focus:outline-none"
             id="nav-logo-btn"
           >
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-700 to-sky-500 flex items-center justify-center text-white shadow-md shadow-sky-600/20 group-hover:scale-105 transition-transform">
-              <GraduationCap className="w-6 h-6 text-white" />
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-700 to-sky-500 flex items-center justify-center text-white shadow-md shadow-sky-600/20 group-hover:scale-105 transition-transform">
+              <GraduationCap className="w-5 h-5 text-white" />
             </div>
-            <div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-lg sm:text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-sky-700 transition-colors">
-                  {INFO_SEKOLAH.nama}
-                </span>
-                <span className="bg-sky-50 text-sky-700 border border-sky-200 font-bold text-[10px] px-1.5 py-0.5 rounded">
-                  NPSN {INFO_SEKOLAH.npsn}
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 font-medium hidden sm:block">
-                Sistem Penerimaan Murid Baru (SPMB) TP {INFO_SEKOLAH.tahunAjaran}
-              </p>
-            </div>
+            <span className="text-base sm:text-lg font-extrabold tracking-tight text-slate-900 group-hover:text-sky-700 transition-colors">
+              {INFO_SEKOLAH.nama}
+            </span>
           </button>
 
           {/* Desktop Navigation */}

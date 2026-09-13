@@ -56,18 +56,18 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
             <ul className="space-y-2 text-slate-400 text-xs">
               <li>
                 <button 
-                  onClick={() => { setActiveTab('beranda'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                  onClick={() => { setActiveTab('profil'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                   className="hover:text-sky-400 transition-colors flex items-center gap-1.5"
                 >
-                  <span className="text-slate-600">•</span> Beranda &amp; Kuota Jalur
+                  <span className="text-slate-600">•</span> Beranda (Profil Sekolah)
                 </button>
               </li>
               <li>
                 <button 
-                  onClick={() => { setActiveTab('profil'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                  onClick={() => { setActiveTab('beranda'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                   className="hover:text-sky-400 transition-colors flex items-center gap-1.5"
                 >
-                  <span className="text-slate-600">•</span> Profil &amp; Fasilitas Sekolah
+                  <span className="text-slate-600">•</span> PMB &amp; Kuota Jalur
                 </button>
               </li>
               <li>

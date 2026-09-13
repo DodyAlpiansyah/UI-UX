@@ -72,6 +72,17 @@ export const SchoolProfileSection: React.FC<SchoolProfileSectionProps> = ({ setA
                 <span>Sekolah Adiwiyata &amp; Ramah Anak</span>
               </span>
             </div>
+
+            {/* Quick Link to PMB */}
+            <div className="pt-2 flex flex-wrap gap-3">
+              <button
+                onClick={() => { setActiveTab('beranda'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs shadow-md transition"
+              >
+                <UserPlus className="w-4 h-4" />
+                <span>Buka Info &amp; Kuota PMB TP {INFO_SEKOLAH.tahunAjaran}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -304,7 +315,7 @@ export const SchoolProfileSection: React.FC<SchoolProfileSectionProps> = ({ setA
 
               <div className="pt-2">
                 <a
-                  href={`https://wa.me/6281234567890?text=Halo%20Admin%20SPMB%20SMP%20Darusalah,%20saya%20ingin%20berkonsultasi%20mengenai%20syarat%20pendaftaran`}
+                  href={`https://wa.me/6281234567890?text=Halo%20Admin%20SPMB%20SMP%20Darussalam,%20saya%20ingin%20berkonsultasi%20mengenai%20syarat%20pendaftaran`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-sm transition"
@@ -320,7 +331,7 @@ export const SchoolProfileSection: React.FC<SchoolProfileSectionProps> = ({ setA
               <div className="bg-slate-100 rounded-2xl border border-slate-300 p-4 text-center space-y-3">
                 <div className="h-44 rounded-xl bg-slate-200 flex flex-col items-center justify-center text-slate-500 relative overflow-hidden border border-slate-300">
                   <MapPin className="w-8 h-8 text-sky-600 animate-bounce mb-1" />
-                  <span className="font-bold text-slate-800 text-xs">Peta Lokasi SMP Darusalah</span>
+                  <span className="font-bold text-slate-800 text-xs">Peta Lokasi SMP Darussalam</span>
                   <span className="text-[10px] text-slate-500">Koordinat: -7.98234, 112.63412</span>
                   <div className="absolute inset-0 bg-sky-900/5 pointer-events-none"></div>
                 </div>

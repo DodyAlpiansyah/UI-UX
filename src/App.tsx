@@ -12,7 +12,7 @@ import { StatusCheckModal } from './components/StatusCheckModal';
 import { MessageSquare, PhoneCall } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<ActiveTab>('beranda');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('profil');
   const [pesertaList, setPesertaList] = useState<PesertaSPMB[]>(INITIAL_PESERTA_LIST);
   const [pengumumanList, setPengumumanList] = useState<PengumumanItem[]>(INITIAL_PENGUMUMAN_LIST);
   const [isStatusModalOpen, setIsStatusModalOpen] = useState<boolean>(false);
@@ -120,7 +120,7 @@ export default function App() {
       {/* Floating WhatsApp Helpdesk button for parents */}
       <aside aria-label="Bantuan WhatsApp" className="fixed bottom-5 right-5 z-30 no-print">
         <a
-          href={`https://wa.me/6281234567890?text=Halo%20Admin%20SPMB%20SMP%20Darusalah,%20saya%20butuh%20bantuan%20pendaftaran%20online`}
+          href={`https://wa.me/6281234567890?text=Halo%20Admin%20SPMB%20SMP%20Darussalam,%20saya%20butuh%20bantuan%20pendaftaran%20online`}
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 px-4 py-3 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-xl shadow-emerald-600/30 hover:scale-105 transition-all group"
